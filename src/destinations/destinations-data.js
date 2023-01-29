@@ -1,7 +1,7 @@
 const Data = [
   {
     category_title: "Forest",
-    image: "url('images/forest-img.png')",
+    image: "url('./images/forest-img.png')",
     destinations: [
       {
         title: "Azrou Cedar Forest",
@@ -17,7 +17,7 @@ const Data = [
   },
   {
     category_title: "Desert",
-    image: "url('images/desert-img.png')",
+    image: "url('./images/desert-img.png')",
     destinations: [
       {
         title: "Merzouga",
@@ -34,7 +34,7 @@ const Data = [
   },
   {
     category_title: "Mountains",
-    image: "url('images/mountain-img.png')",
+    image: "url('./images/mountain-img.png')",
     destinations: [
       {
         title: "The Rif Mountains",

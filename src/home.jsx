@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div
-      style={{ backgroundImage: "url('images/landing-img.png')" }}
+      style={{ backgroundImage: "url('./images/landing-img.png')" }}
       className="bg-center bg-cover bg-no-repeat bg-image-url w-full h-full py-20 md:h-[100vh]"
       id="home"
     >
