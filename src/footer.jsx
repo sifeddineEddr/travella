@@ -10,7 +10,7 @@ export default function Footer() {
           <img className="w-2/3" src="./images/ig-icon.svg" alt="ig-icon" />
         </a>
         <a href="http://www.twitter.com" target="_blank" rel="noreferrer">
-          <img className="w-2/3" src="./images/tw-icon.svg" alt="tw-icon" />
+          <img className="w-2/3" src="./images/ig-icon.svg" alt="tw-icon" />
         </a>
       </div>
     </div>
