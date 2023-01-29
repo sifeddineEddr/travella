@@ -3,17 +3,17 @@
   "name": "Travella",
   "icons": [
     {
-      "src": "",
+      "src": "/images/title-bar-icon.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "",
+      "src": "/images/title-bar-icon.svg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "",
+      "src": "/images/title-bar-icon.svg",
       "type": "image/png",
       "sizes": "512x512"
     }

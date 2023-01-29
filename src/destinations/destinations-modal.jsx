@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function DestinationsModal({ visible, modalClose, content }) {
   const [modalContent, setModalContent] = useState({});
@@ -35,17 +35,11 @@ export default function DestinationsModal({ visible, modalClose, content }) {
             })}
           </div>
           <div className="border-2 border-cyanBlue pt-8 p-2 w-2/3 flex flex-col">
-            <div className="h-1/2 flex flex-col justify-around">
+            <div className="h-full flex flex-col justify-center gap-8">
               <p className="text-cyanBlue text-2xl text-center font-semibold">
                 Desctiption
               </p>
               <p>{modalContent.description}</p>
-            </div>
-            <div className="h-1/2 flex flex-col justify-around">
-              <p className="text-cyanBlue text-2xl text-center font-semibold">
-                Location
-              </p>
-              
             </div>
           </div>
         </div>
