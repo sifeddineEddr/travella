@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div
       style={{ backgroundImage: "url('/images/landing-img.png')" }}
-      className="bg-center bg-cover bg-no-repeat bg-image-url w-full h-full py-20"
+      className="bg-center bg-cover bg-no-repeat bg-image-url w-full h-full py-20 md:h-[100vh]"
       id="home"
     >
       <div
@@ -10,14 +10,6 @@ export default function Home() {
         className="w-full absolute flex justify-around md:items-baseline"
         style={{ top: ".5rem" }}
       >
-        <div
-          id="hamburger-menu"
-          className="flex flex-col justify-around cursor-pointer md:hidden"
-        >
-          <img src="/images/bar.svg" className="my-1" alt="bar" />
-          <img src="/images/bar.svg" className="my-1" alt="bar" />
-          <img src="/images/bar.svg" className="my-1" alt="bar" />
-        </div>
         <p className="font-bold text-white text-4xl">TRAVELLA</p>
         <div className="hidden md:flex md:justify-around text-white gap-5 items-center font-bold text-xl">
           <a href="#home">Home</a>
@@ -27,7 +19,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="body">
+      <div className="flex flex-col justify-center items-center h-full">
         <p className="text-center font-bold text-3xl text-white drop-shadow-lg shadow-black">
           Welcome To Travella
         </p>
